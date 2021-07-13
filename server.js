@@ -3,7 +3,7 @@ const compression = require('compression')
 const cors = require('cors')
 const MusicApi = require('./index')
 
-const port = process.env.PORT || 8001
+const port = process.env.PORT || 8080
 const app = express()
 
 // Enable CORS with various options
